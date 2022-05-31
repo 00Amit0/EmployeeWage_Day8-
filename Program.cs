@@ -2,4 +2,4 @@
 
 Console.WriteLine("Hello, World!");
 EmpWage ew = new EmpWage();
-ew.IffElse();
+ew.Employe();
