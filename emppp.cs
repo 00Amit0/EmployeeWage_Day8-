@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace EmpWageProblem
 {
-    internal class emppp
+    public interface IComputeEmpWage
+    {
+        public void AddCompany(string company, int empRatePerHr, int maxWorkingDays, int maxWorkingHrs);
+        public void GetWage();
+        public int CalWage(emppp emp);
+    }
+
+    public class emppp
     {
         public string company;
         public int empRatePerHr, maxWorkingDays, maxWorkingHrs, totalWage;
